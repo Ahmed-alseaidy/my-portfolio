@@ -1,0 +1,72 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h1 {
+    color: #ff5656;
+    margin-bottom: 30px;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+  }
+  
+  form {
+    background-color: #111;
+    padding: 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 0 15px rgba(255, 86, 86, 0.2);
+  }
+  
+  input {
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    background-color: #222;
+    color: #fff;
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  
+  input:focus {
+    border-color: #ff5656;
+    background-color: #111;
+    outline: none;
+  }
+  
+  button {
+    padding: 14px;
+    background-color: #ff5656;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: #ff5656;
+    border: 2px solid #ff5656;
+  }
+  
